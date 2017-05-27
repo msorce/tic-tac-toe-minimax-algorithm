@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.board {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: blue;
+  margin-bottom: 10px;
+  font-size: 300%;
+  height: 100px;
+  width: 100px;
+}
