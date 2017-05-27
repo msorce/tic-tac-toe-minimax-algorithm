@@ -1,7 +1,7 @@
 # The Minimax Algorithm
 
 ### in game theory
-The maximin value of a player is the largest value that the player can be sure to get without knowing the actions of the other players; equivalently, it is the smallest value the other players can force the player to receive when they know his action. Its formal definition is
+The maximin value of a player is the largest value that the player can be sure to get without knowing the actions of the other players; equivalently, it is the smallest value the other players can force the player to receive when they know his action.
 
 The player running the algorithm is the maximizing player
 
