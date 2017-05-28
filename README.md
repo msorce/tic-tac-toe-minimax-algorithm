@@ -1,3 +1,4 @@
+### DEMO: https://codepen.io/msorce/pen/WjBGgP
 # The Minimax Algorithm
 
 ### in game theory
