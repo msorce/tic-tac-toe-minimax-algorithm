@@ -1,10 +1,17 @@
 body {
-  background-color: black;
+  background-color: #999;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .container {
   max-width: 320px;
-  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:  0;
+  left:  0;
+  margin: auto;
+  height:  320px;
 }
 
 .board {
@@ -15,14 +22,66 @@ body {
   justify-content: space-between;
 }
 
-.tile {
+.square {
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  background-color: blue;
+  background-color: #fff;
+  color: tomato;
   margin-bottom: 10px;
-  font-size: 300%;
+  font-size: 450%;
   height: 100px;
   width: 100px;
+  border-radius: 4px;
+}
+
+.button {
+  font-size: 150%;
+  display: block;
+  width:  100%;
+  background-color: tomato;
+  color:  #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius:  4px;
+}
+
+.modal {
+  position:  fixed;
+  top:  0;
+  right:  0;
+  left:  0;
+  bottom:  0;
+  background-color: rgba(0, 0, 0, .8);
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal > div {
+  background-color: grey;
+  width:  320px;
+  padding:  20px;
+  text-align: center;
+  border-radius: 10px;
+  color:  #fff;
+}
+.modal span {
+  display: block;
+  margin-bottom:  20px;
+}
+.modal button {
+  background-color: transparent;
+  border:  solid 5px #fff;
+  border-radius: 10px;
+  font-size: 250%;
+  padding:  20px 25px;
+  color:  #fff;
+}
+.buttons {
+  margin:  0 auto;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
 }
